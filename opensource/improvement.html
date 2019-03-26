@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fresh Graduate Unemployment</title>
+    <style>
+    body {
+    background: #efebe9;
+    }
+
+    .grid-1 {
+    display: grid;
+    grid-template-columns: 1fr 3fr 0.5fr 0.5fr 0.7fr 2fr 1fr;
+    grid-template-rows: 0px 50px 50px 50px auto 50px 120px 100px 60px;
+    grid-gap: 5px;
+    padding-top: 0px;
+    padding: 50px;
+    }
+
+    .item-1 {
+    background-image: url(learn.jpg);
+    background-size: cover;
+    grid-column: 1/5;
+    grid-row: 3/9;
+    z-index: -1;
+    }
+
+    .item-2 {
+    background: #7e57c2;
+    grid-column: 3/8;
+    grid-row: 2/10;
+    z-index: -2;
+    }
+
+    .item-3 {
+    background: #bdb9b7;
+    grid-column: 2/4;
+    grid-row: 8/10;
+    }
+
+    .item-4 {
+    font-size: 16px;
+    color:white;
+    grid-column: 5/8;
+    grid-row: 7/10;
+    font-family: monospace;
+    line-height: 1.6;
+    padding-left: 40px;
+    padding-right: 40px;
+    }
+
+    .uheader{
+    grid-column: 5/9;
+    grid-row: 3/5;
+    }
+
+    .t1{
+        color:white; font-family: Arial, Helvetica, sans-serif; font-size: 50px; font-weight:normal;
+    }
+
+    nav{
+        width: 100%;
+        height: 40px;
+        grid-column: 1/4;
+        grid-row: 2/3;       
+    }
+
+    nav a{
+        display: block;
+        float: left;
+        font-family: sans-serif;
+        font-size: 20px;
+        color: #37474f;
+
+        /*Padding Our Box*/
+        padding-top: 20px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        text-decoration: none;
+    }
+
+    nav a:hover{
+        background-color: #bdb9b7;
+    }
+
+    .direct{
+        width: 100%;
+        height: 100%;
+        grid-column: 3/8;
+        grid-row: 9/10;  
+        background:#b085f5;
+    }
+
+    nav b{
+        display: block;
+        float: left;
+        font-family: sans-serif;
+        font-size: 20px;
+        color: white;
+        text-align: center;
+
+        /*Padding Our Box*/
+        width: 25%;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        text-decoration: none;
+    }
+
+    nav b:hover{
+        background-color: #4d2c91;
+    }
+
+
+
+    </style>
+</head>
+<body>
+    <section class="grid-1">
+            <nav>
+                <a href="homepg.html">WeCARE</a>
+                <a href="data.html">ABOUT</a>
+                <a href="jobsearch.html">JOBSEARCH</a>
+                <a href="improvement.html">KNOWSELF</a>  
+            </nav>
+            <div class="item-1"></div>
+            <div class="item-2"></div>
+            <div class="item-4">
+                <p>As stated by the Department of Statistics Malaysia, 
+                    the unemployment rates among fresh graduates have 
+                    increased from 30% in 2013 to 34% in 2016 and national unemployment
+                     was 3.5% out of 14 million Malaysians in the labour market. In 2015, there were 405,000 youths with 
+                     higher education, and 15.3% were unemployed.</p>
+            </div>
+            <div class="uheader">
+                <blockquote class="t1">Improve Your Skill</blockquote>
+            </div>
+            <nav class="direct"> 
+                <b href="#">Coursera</b>
+                <b href="#">Udemy</b>
+                <b href="#">Codedemy</b>
+                <b href="#">Linkedln</b>  
+            </nav>
+            
+    </section>
+    
+</body>
+</html>

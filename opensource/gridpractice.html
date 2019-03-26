@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    
+    body {
+    padding-top: 20px;
+    background: #fbfbfb;
+    }
+
+    /* items */
+
+    .grid-1 div {
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    }
+
+    /* specific item styles */
+
+    .item-1 {
+    background-image: url(bacpic.jpg);
+    background-size: cover;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    z-index: -2;
+    
+    }
+    .item-2 {
+    
+    grid-column: 2/3;
+    grid-row: 1/2;
+    }
+    .item-3 {
+    background-image: url(leoneprofile.jpg);
+    background-size:cover; 
+    grid-column: 3/4;
+    grid-row: 1/2;
+    margin: 10%;
+    margin-left: 20%
+    
+    }
+    .item-4 {
+    background: #6a478f;
+    
+    }
+    .item-5 {
+    background: #da6f2b;
+    }
+    .item-6 {
+    background: #3d8bb1;
+    }
+    .item-7 {
+    background: #e03f3f;
+    }
+    .item-8 {
+    background: #59a627;
+    }
+    .item-9 {
+    background: #4464a1;
+    }
+        
+    .grid-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 5fr 7fr 1fr;
+    grid-gap: 10px;
+    }
+
+    h1 { color:white; font-family: 'Bitter', serif; font-size: 100px; font-weight: normal;
+      text-align: center;vertical-align: middle}
+
+    .experience{
+        float: left;
+        margin: 5%
+    }
+    
+
+
+    
+    </style>
+</head>
+<body>
+    <section class="grid-1">
+        <div class="item-1">
+            
+        </div>
+        <div class="item-2">
+            <h1>Leone</h1>
+        </div>
+        <div class="item-3" style="width:200px;height:200px;border-radius: 50%;">
+            
+        </div>
+        <div class = "item-4">
+            <img class = "experience" src="experience.svg" alt="experience" style="width:70px;height:70px;">
+            <h2 align = "center">Experience</h2>
+            <ul align = 'center' style="margin-top : 20%">
+                <ol>
+                    
+                    <p><strong>2018</strong></p>
+                    <li>Axiata Data Unchained Datathon</li>
+                    <li>The Hult Prize competition UM finalist</li>
+                    <li>SAS Fintech Challenge finalist</li>
+                    <li>Volunteer in Cambodia</li>
+                </ol>
+                <ol>
+                    <p><strong>2019</strong></p>
+                    <li>HSBC Hackathon 3rd place</li>
+                    <li>Voluntourism in Indonesia</li>
+                </ol>
+            </ul>
+        </div>
+        <div class="item-5">5</div>
+        <div class="item-6">6</div>
+        <div class="item-7">7</div>
+        <div class="item-8">8</div>
+        <div class="item-9">9</div>
+
+    </section>
+</body>
+</html>
